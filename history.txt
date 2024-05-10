@@ -1,0 +1,20 @@
+  495  git clone git@github.com:sergej-tschernousow/GitHub.git
+  496  ls -la
+  497  cd GitHub/
+  498  git checkout -b feature
+  499  git checkout main ~/Desktop/git_project/GitHub/.gitignore
+  500  nano .gitignore 
+  501  git status
+  502  git commit -am "Edit file gitignore"
+  503  nano README.md
+  504  git add .
+  505  git status
+  506  git commit -m "Create README"
+  507  git push
+  508  git push --set-upstream origin feature
+  509  git commit --amend
+  510  git log
+  511  git checkout main
+  512  git merge feature
+  513  history
+  514  history | tail -20 > history.txt
